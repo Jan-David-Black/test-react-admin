@@ -3,7 +3,7 @@ import { Datagrid, List, ReferenceField, TextField, EditButton } from 'react-adm
 export const PostList = () => (
     <List>
         <Datagrid>
-            <ReferenceField source="userId" reference="users" recordRepresentation="name"/>
+            <ReferenceField source="userId" reference="users"/>
             <TextField source="id" />
             <TextField source="title" />
             <TextField source="body" />
